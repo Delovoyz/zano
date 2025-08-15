@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +64,25 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				zano: {
+					orange: 'hsl(var(--zano-orange))',
+					'orange-light': 'hsl(var(--zano-orange-light))',
+					'orange-dark': 'hsl(var(--zano-orange-dark))',
+					charcoal: 'hsl(var(--zano-charcoal))',
+					'gray-light': 'hsl(var(--zano-gray-light))',
+					'gray-lighter': 'hsl(var(--zano-gray-lighter))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-orange': 'var(--gradient-orange)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'card': 'var(--shadow-card)',
+				'orange': 'var(--shadow-orange)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

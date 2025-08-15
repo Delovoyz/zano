@@ -1,12 +1,50 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useEffect } from 'react';
+import ZanoHeader from '@/components/ZanoHeader';
+import ZanoHero from '@/components/ZanoHero';
+import ZanoHowItWorks from '@/components/ZanoHowItWorks';
+import ZanoWhatsIncluded from '@/components/ZanoWhatsIncluded';
+import ZanoPricing from '@/components/ZanoPricing';
+import ZanoFounder from '@/components/ZanoFounder';
+import ZanoFAQ from '@/components/ZanoFAQ';
+import ZanoContact from '@/components/ZanoContact';
+import ScrollAnimations from '@/components/ScrollAnimations';
 
 const Index = () => {
+  useEffect(() => {
+    // Initialize scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    // Observe all elements with fade-in-up class
+    const elements = document.querySelectorAll('.fade-in-up');
+    elements.forEach((element) => observer.observe(element));
+
+    return () => {
+      elements.forEach((element) => observer.unobserve(element));
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-white font-montserrat">
+      <ZanoHeader />
+      <ZanoHero />
+      <ZanoHowItWorks />
+      <ZanoWhatsIncluded />
+      <ZanoPricing />
+      <ZanoFounder />
+      <ZanoFAQ />
+      <ZanoContact />
+      <ScrollAnimations />
     </div>
   );
 };
