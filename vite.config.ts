@@ -9,7 +9,7 @@ import { componentTagger } from "lovable-tagger";
 // ------------------------------------------------------------------
 
 export default defineConfig(({ mode }) => ({
-  base: '/zano/',             // <-- вот эту строку добавь
+  base: "/zano/",             // <-- вот эту строку добавь
   server: {
     host: "::",
     port: 8080,
