@@ -32,7 +32,7 @@ const ZanoHero = () => {
         </div>
         
         <p className="text-xl md:text-2xl text-zano-gray-light mb-8 max-w-2xl mx-auto fade-in-up">
-          1 планировка: вид сверху, вид от первого лица, VR-режим
+          С ZANO клиенты гуляют по будущему дому в VR до начала строительства.
         </p>
         
         <Button 
