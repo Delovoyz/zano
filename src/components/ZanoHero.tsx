@@ -24,7 +24,7 @@ const ZanoHero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-bold text-zano-charcoal mb-6 fade-in-up">
-          VR-приложение для отдела продаж новостроек
+          Продавайте за дни, а не недели.
         </h1>
         
         <div className="text-2xl md:text-3xl font-semibold text-zano-orange mb-6 fade-in-up">
