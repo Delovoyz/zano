@@ -1,4 +1,4 @@
-import { Home, Eye, Gamepad2, Headphones } from 'lucide-react';
+import { Home, Eye, Gamepad2, Headset } from 'lucide-react';
 
 const ZanoWhatsIncluded = () => {
   const features = [
@@ -18,7 +18,7 @@ const ZanoWhatsIncluded = () => {
       description: "Интерактивное перемещение как в игре"
     },
     {
-      icon: Headphones,
+      icon: Headset,
       title: "VR-режим",
       description: "Полное погружение в виртуальную реальность"
     }
