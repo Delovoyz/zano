@@ -28,11 +28,11 @@ const ZanoHero = () => {
         </h1>
         
         <div className="text-2xl md:text-3xl font-semibold text-zano-orange mb-6 fade-in-up">
-          Пилот для первых 5 проектов — 60 000 ₽
+          С ZANO клиенты гуляют по будущему дому в VR до начала строительства.
         </div>
         
         <p className="text-xl md:text-2xl text-zano-gray-light mb-8 max-w-2xl mx-auto fade-in-up">
-          С ZANO клиенты гуляют по будущему дому в VR до начала строительства.
+          Вернём деньги, если конверсия не вырастет.
         </p>
         
         <Button 
