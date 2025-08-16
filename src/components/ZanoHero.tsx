@@ -24,15 +24,15 @@ const ZanoHero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-bold text-zano-charcoal mb-6 fade-in-up">
-          Продавайте за дни, а не недели.
+          VR-приложение для отдела продаж новостроек
         </h1>
         
         <div className="text-2xl md:text-3xl font-semibold text-zano-orange mb-6 fade-in-up">
-          С ZANO клиенты гуляют по будущему дому в VR до начала строительства.
+          Пилот для первых 5 проектов — 60 000 ₽
         </div>
         
         <p className="text-xl md:text-2xl text-zano-gray-light mb-8 max-w-2xl mx-auto fade-in-up">
-          Вернём деньги, если конверсия не вырастет.
+          1 планировка: вид сверху, вид от первого лица, VR-режим
         </p>
         
         <Button 
