@@ -24,20 +24,20 @@ const ZanoHero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-bold text-zano-charcoal mb-6 fade-in-up">
-          VR-приложение для отдела продаж новостроек
+          Согласуйте решения в 2 раза быстрее. Продавайте квартиры до строительства.
         </h1>
         
-        <div className="text-2xl md:text-3xl font-semibold text-zano-orange mb-6 fade-in-up">
-          Пилот для первых 5 проектов — 60 000 ₽
-        </div>
+        <p className="text-xl md:text-2xl text-zano-gray-light mb-6 max-w-3xl mx-auto fade-in-up">
+          ZANO — VR-приложение в реальном времени для отдела продаж: вид сверху, прогулка от первого лица и VR-режим. Пилот для первых 5 проектов — 60 000 ₽.
+        </p>
         
-        <p className="text-xl md:text-2xl text-zano-gray-light mb-8 max-w-2xl mx-auto fade-in-up">
-          1 планировка: вид сверху, вид от первого лица, VR-режим
+        <p className="text-lg md:text-xl text-zano-orange font-semibold mb-8 fade-in-up">
+          Возврат денег 50%, если не увеличите конверсию в продажи
         </p>
         
         <Button 
           onClick={scrollToContact}
-          className="bg-gradient-orange text-white font-semibold text-lg px-8 py-4 rounded-xl shadow-orange hover-scale transition-all fade-in-up"
+          className="bg-gradient-orange text-white font-semibold text-lg px-8 py-4 rounded-xl shadow-orange hover-scale transition-all fade-in-up animate-pulse hover:animate-none hover:shadow-lg hover:shadow-orange/30 transform hover:-translate-y-1"
         >
           Забронировать пилот
         </Button>
