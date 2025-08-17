@@ -7,6 +7,7 @@ import ZanoPricing from '@/components/ZanoPricing';
 import ZanoFounder from '@/components/ZanoFounder';
 import ZanoFAQ from '@/components/ZanoFAQ';
 import ZanoContact from '@/components/ZanoContact';
+import ZanoFooter from '@/components/ZanoFooter';
 import ScrollAnimations from '@/components/ScrollAnimations';
 
 const Index = () => {
@@ -44,6 +45,7 @@ const Index = () => {
       <ZanoFounder />
       <ZanoFAQ />
       <ZanoContact />
+      <ZanoFooter />
       <ScrollAnimations />
     </div>
   );
